@@ -7,7 +7,7 @@ This file contains a dump of a **PostgreSQL**. It includes information about the
 To use this file, you will need to have PostgreSQL installed and acess to a database. Then, follow these steps:
 
 Open a terminal and connect to the databsae using the `psql` command.
-Use the command `\i [nombre del archivo]` to import the dump file into the database. Verify that the file has been imported successfully by checking the created tables and sequences.
+Use the command `\i [file name]` to import the dump file into the database. Verify that the file has been imported successfully by checking the created tables and sequences.
 
 ### Dependencies
 This file was generated with PostgreSQL version 12.9 and pg_dump version 12.9. Make sure you have these versions or higher installed on your system in order to use the file.
